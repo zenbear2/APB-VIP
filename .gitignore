@@ -1,0 +1,26 @@
+# Ignore everything by default
+*
+
+# Whitelist directory traversal
+!*/
+
+# Whitelist .gitignore and README
+!.gitignore
+!README.md
+
+# Whitelist SystemVerilog files
+!*.sv
+!*.svh
+
+# Vivado build / simulation / cache directories
+.Xil/
+xsim.dir/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.log
+*.pb
+*.jou
+*.vcd
+*.wdb
